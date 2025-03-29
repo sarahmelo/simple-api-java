@@ -3,7 +3,7 @@ on:
   push:
     branches: "feature/**"
 
-job: 
+jobs: 
   checkout_java_docker:
     runs-on: ubuntu-latest
     steps:
